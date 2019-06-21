@@ -14,10 +14,6 @@
         <version>2.1.5.RELEASE</version>
     </parent>
 
-    <properties>
-        <github.global.server>github</github.global.server>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -80,6 +76,14 @@
         </dependency>
 
     </dependencies>
+
+
+
+    <!--打包发至github-->
+    <properties>
+        <github.global.server>github</github.global.server>
+    </properties>
+
 
     <build>
         <plugins>
