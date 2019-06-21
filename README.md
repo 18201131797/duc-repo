@@ -73,7 +73,7 @@ duc maven 仓库
     </dependency>
 ```
 
-5.rocketmq
+6.rocketmq
 
 ```
     <dependency>
